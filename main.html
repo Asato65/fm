@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>file maneger</title>
+  <link rel="stylesheet" href="main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <header>
+    <form id="ctrl_pnl" name="ctrl_pnl">
+      <input type="button" value="開く">
+      <input type="button" value="エディターで開く" id="open_editor">
+      <input type="button" value="削除" id="delete_file">
+      <input type="button" value="名前を変更" id="rename_file">
+      <input type="button" value="移動">
+      <input type="button" value="コピー">
+      <input type="file" multiple>
+      <br>
+      <label for="path">パス：</label>
+      <input type="text" id="path">
+      <input type="button" id="submit_path" onclick="getFileList()" value="GO">
+    </form>
+  </header>
+
+  <main>
+    
+  </main>
+</body>
+
+</html>
